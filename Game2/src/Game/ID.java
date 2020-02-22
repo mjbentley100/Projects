@@ -1,0 +1,16 @@
+package Game;
+
+public enum ID {
+    PLAYER,
+    ZOMBIE,
+    REDZOMBIE,
+    BLUEZOMBIE,
+    PURPLEZOMBIE,
+    WALL,
+    PLANK,
+    BULLET,
+    ZOMBIEBULLET,
+    MAINCLICKER,
+    BULLETCLICKER,
+    BASICAUTOCLICKER
+}
