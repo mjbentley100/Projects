@@ -1,0 +1,28 @@
+Mason Bentley
+Design
+
+
+hangman:
+To implement hangman I will start with a list of words that the program can pull from.
+The words will be hard coded in and it will randomly pick one.
+then I will make a second word that is all *'s with the same length of the first word.
+this will be the word that gets displayed.
+then i will take in a guess (only take in single character alpha)
+then I will look through the string and see how many letters match, and replace them in the
+other word.
+finally, after each guess I will check if there are any *'s left, if there are not then the game is over.
+
+
+Minesweeper:
+I will generate a board made from a list of lists.
+the first list will be of length x, while the rest will be of length y.
+the cells of the list will be filled with the integers 0.
+then I will randomly select a certain number of cells to be mines.
+then i will increment the cells around each mine by 1.
+finally, I will change all cells with "0" in them to be "_".
+this will serve as my base board.
+I will display a board with all "O" in it
+then I will ask the user for a command (flag or select)
+then I will check the base board, if the coordinate is a mine they lose, if not it
+will display the number on the display board.
+the player wins when there are no more unchecked tiles (this forces the use of all flags)
